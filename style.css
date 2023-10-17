@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: black;
+}
+.containers{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+figure{
+    padding: 40px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    
+}
+figure .img{
+    width: 40%;
+    border-radius: 30px;
+}
+figure h1{
+    color: white;
+}
+.containers .audio{
+    display: flex;
+    align-self: center;
+}
+.like{
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+.controls{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.timer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    padding: 10px ;
+}
+.range-time{
+    width: 100%;
+    accent-color: red;
+}
+.control .btnControl{
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    font-size: 2rem;
+}
+.control button{
+    font-size: 2rem;
+    padding: 10px;
+    
+}
+.volume{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    align-self: flex-end;
+}
+.volume #volume{
+    width: 80%;
+    accent-color: red;
+}
+.end{
+    color: white;
+}
+.size{
+    width: 75%;
+}
+.controler{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.photo{
+    justify-content: space-around;
+    padding: 20px;
+    display: flex;
+}
+.img{
+    width: 50%;
+    border-radius: 20px;
+    float: left;
+}
+#text{
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+}
